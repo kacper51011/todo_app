@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src\\todo_app.Core",
-    "\\test"
+    ""
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\todo_app.sln",
   "PreviewInSolutionExplorer": false
 }
