@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\todo_app.UI",
+    "\\src\\todo_app.UI\\Controllers"
   ],
-  "SelectedNode": "\\todo_app.sln",
+  "SelectedNode": "\\src\\todo_app.UI\\Controllers\\WeatherForecastController.cs",
   "PreviewInSolutionExplorer": false
 }
