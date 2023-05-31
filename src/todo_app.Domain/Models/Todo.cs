@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace todo_app.Domain.Models
 {
-    internal class Class1
+    internal class Todo
     {
     }
 }
