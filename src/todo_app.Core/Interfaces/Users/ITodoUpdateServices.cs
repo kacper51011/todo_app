@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace todo_app.Core.DTOs
+namespace todo_app.Core.Interfaces.Users
 {
-    public class TodoResponse
+    internal interface ITodoUpdateServices
     {
-
     }
 }

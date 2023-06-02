@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using todo_app.Core.DTOs;
+using todo_app.Core.DTOs.Todos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

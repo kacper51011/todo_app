@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using todo_app.Domain.Entities;
 
-namespace todo_app.Core.DTOs
+namespace todo_app.Core.DTOs.Todos
 {
     /// <summary>
     /// DTO for adding new Todo
@@ -17,10 +12,12 @@ namespace todo_app.Core.DTOs
         public string Description { get; set; }
         public Guid UserId { get; set; }
 
-        public Todo toTodo() { 
-            return new Todo() { 
-                Title = Title, 
-                Description = Description, 
+        public Todo toTodo()
+        {
+            return new Todo()
+            {
+                Title = Title,
+                Description = Description,
                 UserId = UserId,
                 isCompleted = false
 

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace todo_app.Core.DTOs
+namespace todo_app.Core.DTOs.Todos
 {
-    public class CreateUserRequest
+    public class TodosResponse
     {
 
     }

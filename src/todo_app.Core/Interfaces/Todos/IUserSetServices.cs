@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace todo_app.Core.DTOs
+namespace todo_app.Core.Interfaces.Todos
 {
-    public class DeleteTodoRequest
+    internal interface IUserSetServices
     {
-        public Guid TodoId { get; set; }
     }
 }
