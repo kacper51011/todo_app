@@ -16,7 +16,7 @@ namespace todo_app.Core.DTOs.Todos
         {
             return new Todo()
             {
-               TodoId = new Guid(),
+                TodoId = Guid.NewGuid(),
                 Title = Title,
                 Description = Description,
                 UserId = UserId,

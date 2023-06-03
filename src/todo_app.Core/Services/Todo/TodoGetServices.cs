@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using todo_app.Core.Interfaces.Users;
 
-namespace todo_app.Core.Services
+namespace todo_app.Core.Services.Todo
 {
-    public class TodoServices: ITodoDeleteServices, ITodoGetServices, ITodoSetServices, ITodoUpdateServices
+    internal class TodoGetServices: ITodoGetServices
     {
     }
 }
