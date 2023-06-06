@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         main: "#FF4F5A",
+        error: "#e30b19",
       },
     },
   },

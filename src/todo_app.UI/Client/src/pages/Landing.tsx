@@ -1,3 +1,7 @@
 export const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <LandingNavbar/>
+    <Hero/>
+    
+  )
 };
