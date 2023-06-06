@@ -3,7 +3,7 @@ import { RiTodoFill } from "react-icons/ri";
 
 type props = {
   showText: boolean;
-  color: "main" | "white";
+  color: "main" | "black";
 };
 
 export const Logo = ({ showText, color }: props) => {
@@ -13,8 +13,8 @@ export const Logo = ({ showText, color }: props) => {
         <RiTodoFill />
       </IconBase>
 
-      {showText && color === "main" && <h1 className="text-main">Todo&nbsp;App</h1>}
-      {showText && color === "white" && <h1 className="text-white">Todo&nbsp;App</h1>}
+      {showText && color === "main" && <h1 className="text-main font-extrabold">Todo&nbsp;App</h1>}
+      {showText && color === "black" && <h1 className="text-black font-extrabold">Todo&nbsp;App</h1>}
     </div>
   );
 };

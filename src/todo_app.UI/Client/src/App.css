@@ -4,8 +4,8 @@
 
 @layer base {
     html {
-        font-family: 'Inter', sans-serif;
         font-family: 'Rosario', sans-serif;
-        padding: 15;
+        font-family: 'Inter', sans-serif;
+        
     }
   }
