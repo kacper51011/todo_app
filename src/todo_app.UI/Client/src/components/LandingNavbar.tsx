@@ -3,7 +3,7 @@ import { Logo } from "../shared/components/Logo";
 
 export const LandingNavbar = () => {
   return (
-    <nav className="flex justify-between max-md:w-full w-2/3   mb-10">
+    <nav className="flex justify-between max-md:w-full w-2/3 mb-10">
       <Logo showText={true} color="black" />
       <div>
         <LayoutButton content="Login"></LayoutButton>

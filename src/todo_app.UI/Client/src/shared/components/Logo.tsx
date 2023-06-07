@@ -9,7 +9,7 @@ type props = {
 export const Logo = ({ showText, color }: props) => {
   return (
     <div aria-label="logo" className="flex h-full items-center">
-      <IconBase fontSize="30px" color="red">
+      <IconBase fontSize="30px" color="#FF4F5A" className="mr-2">
         <RiTodoFill />
       </IconBase>
 

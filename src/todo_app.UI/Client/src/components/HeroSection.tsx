@@ -2,7 +2,7 @@ import { Hero } from "../shared/assets";
 
 export const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center mb-20">
       <h1 className="text-center text-2xl mb-10">
         Organize your day activity with <br /> Todo App
       </h1>
