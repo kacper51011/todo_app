@@ -1,6 +1,7 @@
 import { HeroSection } from "../components/HeroSection";
 import { IconsSection } from "../components/IconsSection";
 import { LandingNavbar } from "../components/LandingNavbar";
+import { LastSection } from "../components/LastSection";
 
 export const Landing = () => {
   return (
@@ -8,6 +9,7 @@ export const Landing = () => {
       <LandingNavbar />
       <HeroSection />
       <IconsSection />
+      <LastSection />
     </div>
   );
 };

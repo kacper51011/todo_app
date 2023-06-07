@@ -7,7 +7,7 @@ type props = {
 
 export const LayoutButton = ({ withColor = false, content, ...props }: props) => {
   return (
-    <button {...props} className={`px-3 py-1 mx-2 my-1 rounded-lg ${withColor && "bg-main text-white"}`}>
+    <button {...props} className={`max-md:m-0 px-3 py-1 mx-2 my-1 rounded-lg ${withColor && "bg-main text-white"}`}>
       {content}
     </button>
   );

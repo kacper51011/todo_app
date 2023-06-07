@@ -1,3 +1,2 @@
-import { ReactComponent as Hero } from "./Hero.svg";
-import { ReactComponent as HeroSecond } from "./HeroSecond.svg";
-export { Hero, HeroSecond };
+export { ReactComponent as Hero } from "./Hero.svg";
+export { ReactComponent as LastSectionHero } from "./LastSectionHero.svg";
