@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using todo_app.Core.Interfaces.Users;
 
-namespace todo_app.Core.Services.Todo
+namespace todo_app.Core.DTOs.Users
 {
-    internal class TodoGetServices: ITodoGetServices
+    internal class PatchUserRequest
     {
     }
 }

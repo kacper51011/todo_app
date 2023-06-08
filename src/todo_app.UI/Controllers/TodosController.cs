@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using todo_app.Core.DTOs.Todos;
+using todo_app.Domain.Entities;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,26 +11,29 @@ namespace todo_app.UI.Controllers
         
         // GET: api/<TodosController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public Task<ActionResult<List<Todo>>> GetTodos(GetTodosRequest getTodosRequest)
         {
-            return new string[] { "value1", "value2" };
+            
         }
 
-        // GET api/<TodosController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+      
 
         // POST api/<TodosController>
         [HttpPost]
-        public void Post([FromBody] AddTodoRequest? addTodoRequest)
+        
+        public Task<ActionResult<TodosResponse>> Post(
+            [Bind
+            (nameof(addTodoRequest.Title), 
+            nameof(AddTodoRequest.UserId), 
+            nameof(AddTodoRequest.Description))] 
+            [FromBody]
+            AddTodoRequest? addTodoRequest)
         {
+
         }
 
-        // PUT api/<TodosController>/5
-        [HttpPut("{id}")]
+        // PATCH api/<TodosController>/5
+        [HttpPatch("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }

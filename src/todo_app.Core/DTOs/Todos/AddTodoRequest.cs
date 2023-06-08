@@ -6,7 +6,7 @@ namespace todo_app.Core.DTOs.Todos
     /// <summary>
     /// DTO for adding new Todo
     /// </summary>
-    public class AddTodoRequest
+    public sealed class AddTodoRequest
     {
         public string Title { get; set; }
         public string Description { get; set; }

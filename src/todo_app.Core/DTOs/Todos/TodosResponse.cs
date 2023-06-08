@@ -7,7 +7,7 @@ using todo_app.Domain.Entities;
 
 namespace todo_app.Core.DTOs.Todos
 {
-    public class TodosResponse
+    public sealed class TodosResponse
     {
         public Guid TodoId { get; set; }
         public string Title { get; set; }

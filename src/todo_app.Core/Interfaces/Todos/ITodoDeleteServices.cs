@@ -5,6 +5,6 @@ namespace todo_app.Core.Interfaces.Users
 {
     internal interface ITodoDeleteServices
     {
-        Task<DeleteTodoResponse> DeleteTodo(DeleteTodoRequest deleteTodoRequest); 
+       public bool DeleteTodo(DeleteTodoRequest deleteTodoRequest); 
     }
 }

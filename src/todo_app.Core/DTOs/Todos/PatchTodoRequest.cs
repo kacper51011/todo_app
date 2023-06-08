@@ -1,7 +1,8 @@
 ﻿
+
 namespace todo_app.Core.DTOs.Todos
 {
-    public class DeleteTodoResponse
+    public sealed class PatchTodoRequest
     {
     }
 }

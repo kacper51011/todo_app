@@ -2,8 +2,9 @@
 
 namespace todo_app.Core.DTOs.Todos
 {
-    public class DeleteTodoRequest
+    public sealed class DeleteTodoRequest
     {
-        public Guid TodoId { get; set; }
+        Guid UserId { get; set; }
+        Guid TodoId { get; set; }
     }
 }
