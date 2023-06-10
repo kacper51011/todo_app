@@ -5,7 +5,7 @@ export const DaysNamesRow = () => {
     <div className="flex justify-between">
       {days.map((day) => {
         return (
-          <p key={day} className="max-md:text-sm text-xl grow text-right text-lightText">
+          <p key={day} className="max-md:text-sm text-xl grow text-right text-dayName">
             {day.slice(0, 3)}
           </p>
         );

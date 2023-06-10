@@ -28,7 +28,27 @@ namespace todo_app.Domain.Interfaces
         /// <returns>
         /// Returns todos that have UserId matching with provided argument 
         /// </returns>
-        Task<List<Todo>> GetAllTodos(Guid UserId);
+        Task<List<Todo>> GetUserTodos(Guid UserId);
+        /// <summary>
+        /// Change one property of existing todo
+        /// </summary>
+        /// <param name="todo">
+        /// Existing todo with changed property
+        /// </param>
+        /// <returns>Returns updated Todo from database</returns>
+        Task<Todo> UpdateTodo(Todo todo);
+
+        /// <summary>
+        /// Delete existing todo from database
+        /// </summary>
+        /// <param name="TodoId">
+        /// Id of existing todo
+        /// </param>
+        /// <returns>
+        /// Boolean, false equals not deleted, true equals deleted 
+        /// </returns>
+
+        Task<bool> DeleteTodo(Guid TodoId);
 
 
     }

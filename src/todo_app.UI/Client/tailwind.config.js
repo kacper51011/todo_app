@@ -7,6 +7,7 @@ export default {
         main: "#FF4F5A",
         error: "#e30b19",
         lightText: "#F8F7FA",
+        dayName: "#F8F7FAA3",
         lightDarkText: "#DDE0FF1F",
         darkBackground: "#262627",
       },
