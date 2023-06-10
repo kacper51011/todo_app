@@ -6,6 +6,9 @@ export default {
       colors: {
         main: "#FF4F5A",
         error: "#e30b19",
+        lightText: "#F8F7FA",
+        lightDarkText: "#DDE0FF1F",
+        darkBackground: "#262627",
       },
     },
   },

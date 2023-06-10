@@ -1,4 +1,4 @@
-import { Hero } from "../shared/assets";
+import { Hero } from "../../shared/assets";
 
 export const HeroSection = () => {
   return (

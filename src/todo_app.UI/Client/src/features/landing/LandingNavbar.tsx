@@ -1,5 +1,5 @@
-import { LayoutButton } from "../shared/components/LayoutButton";
-import { Logo } from "../shared/components/Logo";
+import { LayoutButton } from "../../shared/components/LayoutButton";
+import { Logo } from "../../shared/components/Logo";
 
 export const LandingNavbar = () => {
   return (

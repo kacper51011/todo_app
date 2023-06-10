@@ -1,7 +1,7 @@
-import { HeroSection } from "../components/HeroSection";
-import { IconsSection } from "../components/IconsSection";
-import { LandingNavbar } from "../components/LandingNavbar";
-import { LastSection } from "../components/LastSection";
+import { HeroSection } from "../features/landing/HeroSection";
+import { IconsSection } from "../features/landing/IconsSection";
+import { LandingNavbar } from "../features/landing/LandingNavbar";
+import { LastSection } from "../features/landing/LastSection";
 
 export const Landing = () => {
   return (

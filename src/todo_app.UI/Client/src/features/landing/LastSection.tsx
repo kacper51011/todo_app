@@ -1,4 +1,4 @@
-import { LastSectionHero } from "../shared/assets";
+import { LastSectionHero } from "../../shared/assets";
 
 export const LastSection = () => {
   return (
